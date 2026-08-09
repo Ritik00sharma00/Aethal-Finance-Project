@@ -1,0 +1,15 @@
+rails:
+  input:
+    flows:
+      - mask sensitive data on input
+
+  config:
+    sensitive_data_detection:
+      input:
+        entities:
+          - EMAIL_ADDRESS
+          - PHONE_NUMBER
+          - CREDIT_CARD
+          - PERSON
+        mask_token: "[REDACTED]"
+        score_threshold: 0.2

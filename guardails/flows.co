@@ -1,0 +1,9 @@
+define user express greeting
+    "hi"
+    "hello"
+    "hey"
+    "Namaskar"
+    "What's up"
+
+define bot express greeting
+    "Hello! How can I help you?"
